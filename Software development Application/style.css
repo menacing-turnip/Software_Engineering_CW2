@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    font-size: large;
+}
+
+body {
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: centre;
+}
