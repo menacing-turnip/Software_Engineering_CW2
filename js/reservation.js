@@ -1,32 +1,32 @@
 class Reservation
 {
-    #dateReserved;
-    #timeReserved;
+    #startDate;
+    #endDate;
 
-    constructor(dateReserved, timeReserved)
+    constructor(startYear, startMonth, startDay, startHour, startMinute, startSecond, endYear, endMonth, endDay, endHour, endMinute, endSecond)
     {
-        this.#dateReserved = dateReserved;
-        this.#timeReserved = timeReserved;
+        this.#startDate = new Date(startYear, startMonth, startDay, startHour, startMinute, startSecond);
+        this.#endDate = new Date(endYear, endMonth, endDay, endHour, endMinute, endSecond);
     }
 
     // Accessor methods
-    get dateReserved()
+    get startDate()
     {
-        return this.#dateReserved;
+        return this.#startDate;
     }
 
-    set dateReserved(dateReserved)
+    set startDate(startDate)
     {
-        this.#dateReserved = dateReserved;
+        this.#startDate = startDate;
     }
 
-    get timeReserved()
+    get endDate()
     {
-        return this.#timeReserved;
+        return this.#endDate;
     }
 
-    set timeReserved(timeReserved)
+    set endDate(endDate)
     {
-        this.#timeReserved = timeReserved;
+        this.#endDate = endDate;
     }
 }
