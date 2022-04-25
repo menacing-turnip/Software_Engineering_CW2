@@ -1,0 +1,74 @@
+.sticky {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    /*This makes the headbar component stick to the top of the page regardless of scrolling*/
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    z-index: 999;
+}
+
+.stickyLeft, .stickyRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stickyCenter {
+    flex: 6;
+}
+
+.stickyIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.stickyImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.stickyList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stickyListItem {
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.stickySearchIcon {
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/*
+    FONT INSERT SYNTAX
+    
+    font-family: 'Cinzel', serif;
+
+    font-family: 'IBM Plex Mono', monospace;
+
+    font-family: 'Indie Flower', cursive;
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-family: 'Shadows Into Light', cursive;
+*/
