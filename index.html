@@ -14,13 +14,17 @@
         <header>
             <!--<img src="" alt="Logo" class="logo">-->
         </header>
-
         <form action="">
-            <label for="fname">username:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="password">Password:</label><br>
-            <input type="text" id="password" name="password">
-            <input type="button" value="">
+          <div class="form container">
+            <div class="labelcontainer">
+              <label for="uname">Username</label>
+              <input type="text" id="uname" placeholder="enter username" required>
+              <label for="pword">Password</label>
+              <input type="password" id="pword" placeholder="enter password" required>
+            </div>
+            <button type="submit">Login</button>
+            <button type="submit"><a href="register.html">Register</a></button>
+          </div>
         </form>
 
         <footer>
