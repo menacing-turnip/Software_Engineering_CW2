@@ -1,0 +1,53 @@
+.adminlogin {
+    font-family: 'Space Mono', monospace;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/1033142/pexels-photo-1033142.jpeg?cs=srgb&dl=pexels-keegan-everitt-1033142.jpg&fm=jpg");
+    background-size: cover;
+}
+
+    .adminlogin > p {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+    }
+
+.adminLoginTitle {
+    font-size: 80px;
+}
+
+.adminLoginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .adminLoginForm > label {
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+.adminLoginInput {
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.adminLoginButton {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+    .adminLoginButton:disabled {
+        cursor: not-allowed;
+    }

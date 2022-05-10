@@ -1,0 +1,32 @@
+.driverdash {
+    font-family: 'Bebas Neue', cursive;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("https://images.pexels.com/photos/543605/pexels-photo-543605.jpeg?cs=srgb&dl=pexels-ingo-joseph-543605.jpg&fm=jpg");
+    background-size: cover;
+}
+
+    .driverdash > p {
+        font-size: 40px;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+.driverDashTitle {
+    font-size: 80px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.driverDashButton {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}

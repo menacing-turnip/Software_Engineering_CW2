@@ -1,0 +1,56 @@
+.adminregister {
+    font-family: 'Space Mono', monospace;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/10932824/pexels-photo-10932824.jpeg?cs=srgb&dl=pexels-jan-van-der-wolf-10932824.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.adminRegisterTitle {
+    font-size: 60px;
+}
+
+.adminRegisterForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .adminRegisterForm > label {
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+.adminRegisterInput {
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.adminRegisterButton {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.adminRegisterLoginButton {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+}

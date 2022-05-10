@@ -1,0 +1,74 @@
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    /*This makes the headbar component stick to the top of the page regardless of scrolling*/
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    z-index: 999;
+}
+
+.navLeft, .navRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navCenter {
+    flex: 6;
+}
+
+.navIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navListItem {
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.navSearchIcon {
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/*
+    FONT INSERT SYNTAX
+    
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Bitter', serif;
+
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Patrick Hand', cursive;
+
+    font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Space Mono', monospace;
+*/
