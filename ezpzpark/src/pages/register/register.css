@@ -1,0 +1,56 @@
+.register {
+    font-family: 'Space Mono', monospace;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/261621/pexels-photo-261621.jpeg?cs=srgb&dl=pexels-pixabay-261621.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 80px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .registerForm > label {
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+.registerInput {
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.registerButton {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.registerLoginButton {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+}
