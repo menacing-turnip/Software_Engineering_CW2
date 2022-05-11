@@ -43,7 +43,7 @@ export default function AdminRegister() {
                         Submit
                     </button>
                 </form>
-                <button className="registerLoginButton">
+                <button className="adminRegisterLoginButton">
                     <Link className="link" to="/admindash">Return to Dashboard</Link>
                 </button>
                 {/*THIS IS WHAT A COMMENT LOOKS LIKE IN JSX!*/}
