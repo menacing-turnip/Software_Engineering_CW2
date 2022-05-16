@@ -1,0 +1,107 @@
+.parkingwrap {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("https://images.pexels.com/photos/63294/autos-technology-vw-multi-storey-car-park-63294.jpeg?cs=srgb&dl=pexels-pixabay-63294.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.parkingTitle {
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+}
+
+.createButton {
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    right: 500px
+}
+
+.parkingReturnButton {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+}
+
+.pnamelabel {
+    /*positioning*/
+    position: relative;
+    bottom: 150px;
+    left: 350px;
+
+    /*sizing*/
+    width: 300px;
+    height: 80px;
+
+    /*font*/
+    font-size: 30px;
+}
+
+.pspacelabel {
+    /*positioning*/
+    position: relative;
+    bottom: 300x;
+    right: 150px;
+
+    /*sizing*/
+    width: 300px;
+    height: 80px;
+
+    /*font*/
+    font-size: 30px;
+}
+
+.pspacebox {
+    /*positioning*/
+    position: relative;
+    bottom: 300x;
+    right: 80px;
+
+    /*sizing*/
+    width: 300px;
+    height: 80px;
+
+    /*font*/
+    font-size: 30px;
+
+    /*rounded box*/
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.pnamebox {
+    /*positioning*/
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+
+    /*sizing*/
+    width: 300px;
+    height: 80px;
+
+    /*font*/
+    font-size: 30px;
+
+    /*rounded box*/
+    border-radius: 25px;
+    border: 2px solid #000000;
+}

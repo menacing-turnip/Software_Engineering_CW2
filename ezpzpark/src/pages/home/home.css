@@ -1,0 +1,44 @@
+.home {
+    font-family: 'Space Mono', monospace;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("https://images.pexels.com/photos/63294/autos-technology-vw-multi-storey-car-park-63294.jpeg?cs=srgb&dl=pexels-pixabay-63294.jpg&fm=jpg");
+    background-size: cover;
+}
+
+    .home > p {
+        font-size: 40px;
+        font-family: 'Space Mono', monospace;
+    }
+
+.homeTitle {
+    font-size: 80px;
+    position: absolute;
+    top: 60px;
+    text-decoration: underline;
+}
+
+.userButton {
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.adminButton {
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: white;
+}

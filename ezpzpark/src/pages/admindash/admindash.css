@@ -1,0 +1,33 @@
+.admindash {
+    font-family: 'Space Mono', monospace;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("https://images.pexels.com/photos/3757147/pexels-photo-3757147.jpeg?cs=srgb&dl=pexels-alex-azabache-3757147.jpg&fm=jpg");
+    background-size: cover;
+}
+
+    .admindash > p {
+        font-size: 40px;
+        font-family: 'Space Mono', monospace;
+    }
+
+.adminDashTitle {
+    font-size: 80px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+}
+
+.adminDashButton {
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: white;
+}

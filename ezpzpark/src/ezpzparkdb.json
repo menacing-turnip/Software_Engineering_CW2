@@ -1,0 +1,108 @@
+{
+  "userTable": [
+    {
+      "username": "bigglepesh",
+      "email": "bp@heshwarriors.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "username": "rocco",
+      "email": "rocco@bosslevel.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "ross",
+      "email": "ross@theboss.com",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "adminTable": [
+    {
+      "username": "admin",
+      "email": "admin@authority,com",
+      "password": "admin",
+      "id": 1
+    }
+  ],
+  "parkingLotsTable": [
+    {
+      "name": "UEA Main",
+      "noOfSpaces": "250",
+      "id": 1
+    },
+    {
+      "name": "UEA Faculty",
+      "noOfSpaces": "150",
+      "id": 2
+    },
+    {
+      "name": "UEA Student",
+      "noOfSpaces": "300",
+      "id": 3
+    }
+  ],
+  "requestsTable": [
+    {
+      "user": "bigglepesh",
+      "optionChoice": "UEA Student",
+      "myDateString": "2022-05-16T04:45",
+      "dateTime": "2022-05-25T12:00",
+      "duration": 60,
+      "id": 1
+    },
+    {
+      "user": "rocco",
+      "optionChoice": "UEA Faculty",
+      "myDateString": "2022-05-16T05:13",
+      "dateTime": "2022-05-24T12:00",
+      "duration": 60,
+      "id": 2
+    },
+    {
+      "user": "rocco",
+      "optionChoice": "UEA Main",
+      "myDateString": "2022-05-16T05:14",
+      "dateTime": "2022-05-15T14:00",
+      "duration": 60,
+      "id": 3
+    },
+    {
+      "user": "ross",
+      "optionChoice": "UEA Faculty",
+      "myDateString": "2022-05-16T05:14",
+      "dateTime": "2022-05-18T15:00",
+      "duration": 60,
+      "id": 5
+    }
+  ],
+  "acceptedRequestsTable": [
+    {
+      "user": "bigglepesh",
+      "optionChoice": "UEA Student",
+      "myDateString": "2022-05-16T04:45",
+      "dateTime": "2022-05-25T12:00",
+      "duration": 60,
+      "id": 1
+    },
+
+    {
+      "user": "bigglepesh",
+      "optionChoice": "",
+      "myDateString": "2022-05-16T05:07",
+      "dateTime": "2022-05-29T12:00",
+      "duration": 60,
+      "id": 2
+    },
+    {
+      "user": "ross",
+      "optionChoice": "UEA Faculty",
+      "myDateString": "2022-05-16T05:14",
+      "dateTime": "2022-05-26T10:00",
+      "duration": 60,
+      "id": 4
+    }
+  ]
+}

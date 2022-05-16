@@ -1,0 +1,17 @@
+.parkinglots {
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("https://steamuserimages-a.akamaihd.net/ugc/925927001689689227/BB62FE43D7F88D0F8F3F8ACDAD367B4D7FCFD3E9/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    background-size: cover;
+}
+
+.parkingTitle {
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+}

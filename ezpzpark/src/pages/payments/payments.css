@@ -1,0 +1,76 @@
+.payments {
+    font-family: 'Space Mono', monospace;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://www.nexo-standards.org/sites/default/files/background_standards/atm.jpeg");
+    background-size: cover;
+}
+
+
+.paymentTitle {
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+}
+
+.outstandingBalance {
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+}
+
+.paymentForm{
+    border: 5px solid;
+    border-radius: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+    .paymentForm > label {
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+
+.paymentInput{
+    font-family: 'Space Mono', monospace;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.paymentButton{
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.paymentReturnButton {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+}
