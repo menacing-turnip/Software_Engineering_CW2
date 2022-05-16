@@ -1,4 +1,4 @@
-DELETE EVERYTHING YOU HAVE (unless your name is Manuel - keep a copy of work already done and try to assimilate)
+DELETE EVERYTHING YOU HAVE (unless your name is Manuel - keep a copy of SET FLOOR PLAN PAGE)
 
 download all as zip and open Software_Engineering_CW2 folder in vs code
 
@@ -8,13 +8,12 @@ cd ezpzpark
 
 npm install react-scripts (you will have deleted modules so you'll need to reinstall but make sure you are in the ezpzpark directory)
 
-npm start
+npm install json-server
 
-The site will load in your default browser - TO ACCESS THE ADMIN AND DRIVER DASHBOARD PAGES JUST CLICK "SUBMIT" BUTTON
-ON THE LOGIN PAGES (NO NEED TO INPUT ANYTHING AS BACKEND NOT IMPLEMENTED) I HAVE LEFT WHAT I HOPE ARE HELPFUL HINTS
-ON HOW TO IMPLEMENT THE BACKEND ON ALL PAGES THAT HAVE NOT BEEN CODED YET - I DID THE CSS FILES FOR AS MANY PAGES AS I COULD
-AND ALL BUTTONS NOW WORK - THE "HOME" BUTTON ON THE NAV BAR WILL ALWAYS TAKE YOU BACK TO THE MAIN MAIN PAGE BUT EVENTUALLY
-IF THE SYSTEM KNOWS THAT A USER IS A DRIVER THE HOME BUTTON WILL GO TO THE DRIVER DASHBOARD AND IF ITS AN ADMIN USER THE 
-ADMIN DASHBOARD BUT NO NEED TO WORRY TOO HARD ABOUT THIS - FOCUS ON CSS FIRST BACKEND SECOND
+npx json-server --watch src\ezpzparkdb.json --port 8000
+
+OPEN NEW POWERSHELL TERMINAL
+
+npm start
 
 Good luck. Try not to suck.
