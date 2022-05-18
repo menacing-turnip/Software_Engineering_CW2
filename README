@@ -1,19 +1,13 @@
-DELETE EVERYTHING YOU HAVE (unless your name is Manuel - keep a copy of SET FLOOR PLAN PAGE)
-
-download all as zip and open Software_Engineering_CW2 folder in vs code
+download all as zip and open source code folder in vs code
 
 Go to powershell and write following commands
 
 cd ezpzpark
 
-npm install react-scripts (you will have deleted modules so you'll need to reinstall but make sure you are in the ezpzpark directory)
-
-npm install json-server
+npm install
 
 npx json-server --watch src\ezpzparkdb.json --port 8000
 
 OPEN NEW POWERSHELL TERMINAL
 
 npm start
-
-Good luck. Try not to suck.
