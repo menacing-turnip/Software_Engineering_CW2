@@ -1,0 +1,11 @@
+This folder contains the managing parking lot system that was unfortunately unable to be integrated into the PMS website. In this folder, you
+must run 'text.html' to see how the 'managing parking lot' park would have worked inside the PMS website. I implemented the ability to add and
+remove parking spaces and store them in an array of 'ParkingSpace' objects, which would be saved in the .json backend file and be available for
+the driver users to reserve or occupy. There is also the feature of adding and removing parking lots, so that the admin has the ability to manage
+multiple parking lots and replicate them as accurately as possible. The parking lots are also stored in an array of 'ParkingLot' objects, which
+would have also been saved in the .json backend file, and be available for the driver users to select which parking lot they will be using. The
+system also allows the parking spaces to have 4 states: Free (available to drivers to park in), Occupied (in use by a driver), Reserved (booked
+reserved for a driver for future usage), and Blocked (unavailable for anyone). Any parking space can be clicked on and blocked/unblocked with the
+pop-up div element. The parking spaces for the third parking lot have their states randomised for the sake of showcasing this state feature.
+
+Made by Manuel Dogbatse

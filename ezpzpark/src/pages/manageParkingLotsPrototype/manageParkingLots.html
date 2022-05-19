@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANAGE PARKING LOTS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Links -->
+    <script src="js/parkingMap.js" defer></script>
+    <script src="js/parkingLot.js" defer></script>
+    <script src="js/parkingSpace.js" defer></script>
+    <script src="js/location.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Parking Lot Display Container -->
+    <div id="parking-lot-display">
+      <!-- Toolbar -->
+      <div id="toolbar">
+        <!-- Classes used for each button category -->
+        <div class="toolbar-button-wrap">
+          <button type="button" id="add-space-button">ADD<br>SPACE</button>
+          <button type="button" id="remove-space-button">REMOVE<br>SPACE</button>
+        </div>
+
+        <div class="toolbar-button-wrap">
+          <button type="button" id="add-lot-button">ADD<br>LOT</button>
+          <button type="button" id="remove-lot-button">REMOVE<br>LOT</button>
+        </div>
+
+        <div class="toolbar-button-wrap">
+          <button type="button" id="previous-lot-button">PREVIOUS<br>LOT</button>
+          <button type="button" id="next-lot-button">NEXT<br>LOT</button>
+        </div>
+
+        <!-- Container for parking lot index buttons -->
+        <div class="toolbar-button-wrap">
+        </div>
+      </div>
+      <div id="parking-lot-container">
+      </div>
+    </div>
+  </body>
+</html>
